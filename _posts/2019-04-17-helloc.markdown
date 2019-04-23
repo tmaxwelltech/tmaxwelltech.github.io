@@ -5,4 +5,24 @@ date: 2019-04-17 15:21:52 -0700
 categories: C Logging
 ---
 
-C is really cool!
+C is to programming languages (i.e. Ruby, Python, JavaScript etc.) what Latin is to western natural languages (i.e. English, Spanish, French etc.). I want to be as candid as possible and disclose that, as I am writing this, I am learning C. I am only a few lessons ahead of my readers. I want to include C in this tutorial because it is the _lingua franca_ of programming languages.
+
+I will explain how to get this program running in a UNIX based environment. I wouldn't know where to start this in Windows!
+
+```bash
+$ mkdir clanguage
+$ cd clanguage
+$ touch hello.c
+$ atom .
+```
+
+This will open the `clanguage` directory in the Atom text editor.
+
+```c
+#include <stdio.h>
+
+main()
+{
+  printf("Hello, world\n");
+}
+```

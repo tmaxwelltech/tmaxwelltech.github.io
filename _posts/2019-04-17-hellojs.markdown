@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Hello JavaScript"
+date: 2019-04-17 15:21:52 -0700
+categories: JavaScript Logging
+---
+
+JavaScript is okay!

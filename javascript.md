@@ -20,3 +20,8 @@ permalink: /javascript/
 </div>
 {% endif %}
 {% endfor %}
+
+<h3>{{page.title}} Links</h3>
+[Eloquent JavaScript](https://eloquentjavascript.net/)
+
+[w3schools](https://www.w3schools.com/js/default.asp)

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Hello C"
-date: 2019-04-17 15:21:52 -0700
-categories: C Logging
+date: 2019-04-23 15:21:52 -0700
+categories: C Logging Hello-World
 ---
 
 C is to programming languages (i.e. Ruby, Python, JavaScript etc.) what Latin is to western natural languages (i.e. English, Spanish, French etc.). I want to be as candid as possible and disclose that, as I am writing this, I am learning C. I am only a few lessons ahead of my readers. I want to include C in this tutorial because it is the _lingua franca_ of programming languages.

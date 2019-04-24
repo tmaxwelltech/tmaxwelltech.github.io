@@ -1,14 +1,14 @@
 ---
 layout: page
-title: C
-permalink: /c/
+title: Topics
+permalink: /topics/
 ---
 
 {% for cat in site.categories %}
 
-{% if cat[0] == page.title) %}
+{% if cat[0] != "C"  %}
 
-<h3>{{ cat[0]}} Posts</h3>
+<h3>{{ cat[0]}}</h3>
 
 {% for post in cat[1] %}
 
@@ -20,6 +20,3 @@ permalink: /c/
 </div>
 {% endif %}
 {% endfor %}
-
-<h3>{{page.title}} Links</h3>
-<h3>Suggested Reading for {{page.title}}</h3>

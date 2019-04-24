@@ -20,3 +20,5 @@ permalink: /ruby/
 </div>
 {% endif %}
 {% endfor %}
+
+<h3>{{page.title}} Links</h3>

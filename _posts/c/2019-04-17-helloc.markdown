@@ -9,20 +9,57 @@ C is to programming languages (i.e. Ruby, Python, JavaScript etc.) what Latin is
 
 I will explain how to get this program running in a UNIX based environment. I wouldn't know where to start this in Windows!
 
+The following commands will make a new directory, make that new directory the working directory, create a new file within that directory and finally open that directory in the Atom text editor.
+
 ```bash
-$ mkdir clanguage
-$ cd clanguage
-$ touch hello.c
-$ atom .
+$ mkdir c         //creates a new directory called c
+$ cd c            //makes c the new working directory
+$ touch hello.c   //creates a new file hello.c
+$ atom .          //opens the c directory in Atom
 ```
 
-This will open the `clanguage` directory in the Atom text editor.
+It should look something like this:
+
+{% include image.html url="/img/atomc.png" description="Atom!" %}
+Type the following into the `hello.c` file.
 
 ```c
 #include <stdio.h>
 
-main()
+int main()
 {
-  printf("Hello, world\n");
+  printf("Hello, world!\n");
+  return 0;
 }
 ```
+
+From the command line, within the `c` directory type the following:
+
+```bash
+$ cc hello.c
+```
+
+and press enter. If all goes well, you should see this:
+
+```bash
+$ cc hello.c
+$
+```
+
+In other words, nothing. C assumes you know what you are doing. Now type the following:
+
+```bash
+$ ls
+a.out  hello.c
+$
+```
+
+The C compiler created the file `a.out`. Now, to run the file type:
+
+```bash
+$ ./a.out
+Hello, world
+$
+```
+
+You did it!

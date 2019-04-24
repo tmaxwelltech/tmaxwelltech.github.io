@@ -6,3 +6,40 @@ categories: JavaScript Logging
 ---
 
 JavaScript is okay!
+
+I will explain how to get this program running in a UNIX based environment. I wouldn't know where to start this in Windows!
+
+The following commands will make a new directory, make that new directory the working directory, create a new file within that directory and finally open that directory in the Atom text editor.
+
+```bash
+$ mkdir javascript     //creates a new directory called javascript
+$ cd javascript        //makes javascript the new working directory
+$ touch hello.js       //creates a new file hello.js
+$ atom .               //opens the javascript directory in Atom
+```
+
+It should look something like this:
+
+{% include image.html url="/img/atomjs.png" description="Atom!" %}
+
+Type the following into the `hello.js` file.
+
+```JavaScript
+  console.log("Hello, world!");
+```
+
+From the command line, within the `javascript` directory type the following:
+
+```bash
+$ node hello.js
+```
+
+and press enter. If all goes well, you should see this:
+
+```bash
+$ node hello.js
+Hello, world!
+$
+```
+
+You did it!

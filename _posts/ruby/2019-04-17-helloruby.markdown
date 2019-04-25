@@ -7,7 +7,7 @@ categories: Ruby Logging
 
 Ruby and Python ...
 
-I will explain how to get this program running in a UNIX based environment. I wouldn't know where to start this in Windows!
+I will explain how to get the traditional first program, the 'hello world' program, working in Ruby. These instructions are for getting this program running in a UNIX based environment.
 
 The following commands will make a new directory, make that new directory the working directory, create a new file within that directory and finally open that directory in the Atom text editor.
 

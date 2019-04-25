@@ -5,9 +5,7 @@ date: 2019-04-17 15:21:52 -0700
 categories: JavaScript Logging
 ---
 
-JavaScript
-
-I will explain how to get this program running in a UNIX based environment. I wouldn't know where to start this in Windows!
+I will explain how to get the traditional first program, the 'hello world' program, working in JavaScript. These instructions are for getting this program running in a UNIX based environment.
 
 The following commands will make a new directory, make that new directory the working directory, create a new file within that directory and finally open that directory in the Atom text editor.
 

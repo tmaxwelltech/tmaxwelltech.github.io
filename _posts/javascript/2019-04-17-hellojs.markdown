@@ -18,7 +18,7 @@ $ atom .               //opens the javascript directory in Atom
 
 It should look something like this:
 
-{% include image.html url="/img/atomjs.png" description="Atom!" %}
+{% include image.html url="/img/hellojs/atomjs.png" description="Atom!" %}
 
 Type the following into the `hello.js` file.
 

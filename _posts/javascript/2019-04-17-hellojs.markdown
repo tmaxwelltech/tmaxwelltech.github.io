@@ -3,6 +3,7 @@ layout: post
 title: "Hello JavaScript"
 date: 2019-04-17 15:21:52 -0700
 categories: JavaScript Logging
+permalink: /jslesson1
 ---
 
 I will explain how to get the traditional first program, the 'hello world' program, working in JavaScript. These instructions are for getting this program running in a UNIX based environment.

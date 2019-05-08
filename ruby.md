@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Ruby
-permalink: /ruby/
 ---
 
 {% for cat in site.categories %}

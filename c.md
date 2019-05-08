@@ -1,12 +1,11 @@
 ---
 layout: page
 title: C
-permalink: /c/
 ---
 
 {% for cat in site.categories %}
 
-{% if cat[0] == page.title) %}
+{% if cat[0] == page.title %}
 
 <h3>{{ cat[0]}} Posts</h3>
 

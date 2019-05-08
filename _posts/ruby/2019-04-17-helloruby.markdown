@@ -2,7 +2,8 @@
 layout: post
 title: "Hello Ruby"
 date: 2019-04-17 15:21:52 -0700
-categories: Ruby Logging
+categories: Ruby Logging One
+permalink: /rubylesson1
 ---
 
 Ruby and Python ...

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Topics
-permalink: /topics/
 ---
 
 {% for cat in site.categories %}

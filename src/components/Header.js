@@ -35,7 +35,10 @@ const MainNav = (props) => {
               <NavLink href="/">Tyler Maxwell</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/tmax818">GitHub</NavLink>
+              <NavLink href="#">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Now</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -46,11 +49,11 @@ const MainNav = (props) => {
                    <NavLink href="https://github.com/tmax818" target="_blank">GitHub</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  <NavLink href="/resume" target="_blank">Resume</NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  <NavLink href="#" target="_blank">Portfolio</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

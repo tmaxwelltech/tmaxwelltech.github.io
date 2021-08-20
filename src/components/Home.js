@@ -4,8 +4,7 @@ import Cards from './Cards'
 
 const Home = (props) => {
   return (
-    <div>
- 
+    <div className="mt-4">
       <Cards/>
     </div>
   );

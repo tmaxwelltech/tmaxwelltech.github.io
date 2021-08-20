@@ -1,28 +1,24 @@
 import React from 'react';
-import { Card, Button, CardTitle, CardText, CardGroup, Row, Col } from 'reactstrap';
+import { Card, Button, CardTitle, CardText, CardGroup, Row, Col, CardDeck } from 'reactstrap';
+import InfoCard from './InfoCard'
+import {info} from '../shared/info'
+
+console.log(info)
 
 const Example = (props) => {
+  console.log(info)
   return (
     <div className="container">
-      <CardGroup>
+
     <Row>
-      <Col sm="3">
-        <Card body>
-          <CardTitle tag="h5">Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
-        </Card>
-      </Col>
-      <Col sm="3">
-        <Card body>
-          <CardTitle tag="h5">Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
-        </Card>
-      </Col>
-    </Row>
-    </CardGroup>
-    </div>
+      {info.map(item => {
+        return(
+          <InfoCard title={item.title} text={item.text} image={item.image}/>
+          )
+        })}
+      </Row>
+      </div>
+
   );
 };
 

@@ -5,14 +5,15 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
   NavLink,
+  NavItem,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { NavLink as NLink }  from 'react-router-dom';
 
 const MainNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,13 +33,17 @@ const MainNav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">Tyler Maxwell</NavLink>
+              <NavLink>
+              <NLink to="/">Tyler Maxwell</NLink>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">About</NavLink>
+              <NavLink>
+              <NLink to="/about">About</NLink>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Now</NavLink>
+              <NavLink to="#">Now</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -46,7 +51,7 @@ const MainNav = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                   <NavLink href="https://github.com/tmax818" target="_blank">GitHub</NavLink>
+                   <NavLink to="https://github.com/tmax818" target="_blank">GitHub</NavLink>
                 </DropdownItem>
                 <DropdownItem>
                   <NavLink href="/resume" target="_blank">Resume</NavLink>
